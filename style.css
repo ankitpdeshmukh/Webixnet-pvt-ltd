@@ -1,0 +1,510 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+:root{
+  --primary-text-color:#0B1460;
+  --secondary-text-color:
+}
+/* -------------------------------- */
+*{
+  margin: 0px;
+  padding: 0%;
+  box-sizing: border-box;
+  /* overflow-x: hidden; */
+}
+body{
+  color: var(--primary-text-color);
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: capitalize;
+  overflow-x: hidden;
+
+  
+}
+.below-head{
+  /* padding-inline: 200px; */
+}
+h1{
+  font-size: 4rem;
+  font-family: 'Nunito', sans-serif;
+  font-weight: bolder;
+}
+
+h2{
+  font-size: 3rem;
+  font-family: 'Nunito', sans-serif;
+  font-weight: bold;
+}
+
+p{
+  font-size: 1rem;
+  color: #6F7493;
+  font-family: 'Roboto', sans-serif;
+}
+h4{
+  font-size: 2rem;
+  font-family:'Roboto', sans-serif ;
+  text-transform: capitalize;
+  font-weight: bolder;
+}
+h5{
+  font-size: 1.2rem;
+  font-family:'Roboto', sans-serif ;
+  text-transform: capitalize;
+  /* font-weight: bolder; */
+  color: #0B1460;
+}
+h6{
+  font-size: 1.5rem;
+  font-family:'Roboto', sans-serif ;
+  text-transform: capitalize;
+  /* font-weight: bolder; */
+  color: #0B1460;
+  font-weight: 600;
+}
+button{
+  background-color: #0B1460;
+  padding:7px 30px;
+  border-radius: 10px;
+  color: white;
+  font-size: 1.4rem;
+  font-family:"Nunito', sans-serif";
+  text-transform: capitalize;
+}
+.button-secondary{
+  background-color: #0B1460;
+  padding:10px 20px;
+  color: white;
+  font-size: 1.3rem;
+  font-family:"Roboto', sans-serif" ;
+}
+/* ------------------------------ */
+.head{
+  background:linear-gradient(
+    to right,
+    #12B3D4,
+    #A5AB6C,
+    #9A4A9A
+  );
+  
+}
+  .offcanvas-btn{
+      float: right;
+      margin-top:3rem;
+   }
+   .nav-links{
+      text-transform: capitalize;
+      color: black;
+      padding: 20px 10px;
+      font-size:1.2rem;
+   }
+   .nav-links a{
+      text-decoration: none;
+      color: black;
+   }
+   .head-nav{
+    list-style: none;
+    display: flex;
+   }
+   .head-nav li{
+    padding:15px 25px;
+    font-family: Arial, Helvetica, sans-serif;
+   }
+   .Smarter{
+    text-align: center;
+    max-width:650px;
+    padding-inline: 0px 20px;
+    /* padding:80px 0px; */
+   }
+   .Company-Statistics{
+    text-align:left;
+    max-width:800px;
+   }
+   .ABOUT-COMPANY{
+    text-align: center;
+    max-width:520px;
+    margin-top: 150px;
+    text-align: left;
+    padding: 50px 0px;
+   }
+   /* .contact-us{
+    margin-left:170px;
+   } */
+   .experiance{
+    margin-top:80px;
+   }
+   .pragati-img-1{
+    margin-top: 50px;
+    height: 550px;
+   }
+   .pragati-img-2{
+     z-index: 1;
+     position: absolute;
+    margin-inline-start:-300px;
+    margin-bottom:150px;
+   }
+   .sec-1,.sec-2,.sec-3{
+    margin: 80px 0px;
+   }
+   .btn-grp button{
+    margin: 0px 7px;
+   }
+   .bi-basket {
+    font-size: 50px;
+   }
+   #box{ 
+   transition: all .2s ease-in-out; 
+   box-shadow: 5px 5px 10px gray;
+   }
+   
+   /* #box:hover { 
+   transform: scale(1.1);
+   border: 0.4px solid blue;
+   } */
+   #box-card:hover{
+    border: 0.5px solid blue;
+    box-shadow: 5px 5px 7px grey;
+   }
+   .left-side-girl{
+     margin-top:80px;
+   }
+   .fly-girl{
+     height:750px;
+     margin-left: 50px;
+   }
+  .cont-girl-seeting{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.girl-siting,.form-side-img,.laptop-img {
+  /* width: 100px; */
+  /* height: 100px; */
+  /* background-color: #3498db; */
+  animation: bounce 1.5s infinite alternate; /* Use the bounce animation */
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0); /* Initial position */
+  }
+  100% {
+    transform: translateY(-30px); /* Bounce up */
+  }
+}
+
+        .What-We{
+          margin-top:100px;
+   }
+   .contact-form{
+     border: 0.5px solid gray;
+     border-radius: 15px;
+     /* padding:50px 0px; */
+   }
+   .footer-sub ul{
+     list-style: none;
+     margin-top: 50px;
+   }
+   .logo-img{
+     height:60px;
+    } 
+    /* .logo-img-c{
+      height: 100px;
+    } */
+    .contact-us{
+     margin-top: 25px;
+   } 
+   .move{
+     position: fixed;
+     top: 0;
+     left:0;
+     z-index: 100;
+     transform: translateY(-100%);
+     transition: transform top 0.4s ease-in-out;;
+   }
+    nav.sticky{
+     transform: translateY(0);
+   }
+   .nav-item{
+     font-weight:600;
+     margin: 0px 20px;
+   }
+   .card-img{
+    transition: all 1s;
+    width: 100px;
+   }
+   .card{
+    background-color:whitesmoke;
+   }
+   /* .ourcard:hover{
+    
+   } */
+ 
+
+   @keyframes fadeIn {
+      0%{
+            top:0px;
+      }
+      50%{
+        top:50px;
+      }
+      100%{
+        top:-50px;
+      }
+   }
+   .card:hover{
+    img{ transform:rotateY(360deg) ;}
+    background-color: white;
+    transform:skewY(25%);
+    /* border: 5px solid red; */
+   }
+
+   #box{
+    position: relative;
+    box-sizing: border-box;
+    transition: all 5s;
+    transform: skewY(-2deg);
+    box-shadow: 1px 1px 5px 10px #dedede2b;
+    
+    
+   }
+   #box:hover{
+    border: 2px solid blue;
+    box-shadow: 5px 5px 5px gray;
+   }
+   #newbox
+   {
+    transition: all 0.3s ease-in-out;
+   }
+
+   #newbox:hover{
+    animation: fadeIn 0.5s 1;
+    transform: translateY(-20px);
+   
+    
+   }
+   .card:hover{
+    border: 12x solid #0b1460;
+   }
+   .newcon{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   .newcon img{
+    width: 20%;
+   }
+   ::placeholder {
+    color:#0B1460;
+    font-size:19px;
+    font-weight: bold;
+  }
+  /* =======card============= */
+  /* .card {
+    position: relative;
+    width: 220px;
+    height: 320px;
+    background: mediumturquoise;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  
+  .card::before,
+  .card::after {
+    position: absolute;
+    content: "";
+    width: 20%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: bold;
+    background-color:transparent;
+    transition: all 0.5s;
+  }
+  
+  .card::before {
+    top: 0;
+    right: 0;
+    border-radius: 0 15px 0 100%;
+  }
+  
+  .card::after {
+    bottom: 0;
+    left: 0;
+    border-radius: 0 100%  0 15px;
+  }
+  
+  .card:hover::before,
+  .card:hover:after {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    transition: all 0.5s;
+  } */
+  
+  /* ================ */
+  .watch{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+}
+
+#clock {
+    position: relative;
+    height: 20vw;
+    width: 20vw;
+    border: 3px solid #000000;
+    box-shadow: inset 7px  #f70303;
+    border-radius: 50%;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+}
+#clockInner {
+    position: relative;
+    background: #fff;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+#clockInner::after {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+#clockInner::after,
+#clockInner::before,
+#clockInner .marking {
+    content: '';
+    position: absolute;
+    width: 5px;
+    height: 100%;
+    z-index: 0;
+    left: 49%;
+    top: 0%;
+}
+#clockInner .marking {
+    background: #000;
+    width: 3px;
+}
+#clockInner .marking.marking-one {
+    -webkit-transform: rotate(30deg);
+    -moz-transform: rotate(30deg);
+    transform: rotate(30deg);
+}
+#clockInner .marking.marking-two {
+    -webkit-transform: rotate(60deg);
+    -moz-transform: rotate(60deg);
+    transform: rotate(60deg);
+}
+#clockInner .marking.marking-three {
+    -webkit-transform: rotate(120deg);
+    -moz-transform: rotate(120deg);
+    transform: rotate(120deg);
+}
+#clockInner .marking.marking-four {
+    -webkit-transform: rotate(150deg);
+    -moz-transform: rotate(150deg);
+    transform: rotate(150deg);
+}
+.clockface {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    width: 80%;
+    height: 80%;
+    background: #FFFFFF;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    z-index: 1;
+}
+.digit {
+    position: absolute;
+    font-size: 1.5rem;
+    z-index: 2;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#digit-12 {
+    top: 5%;
+    left: 48%;
+}
+#digit-3 {
+    top: 48%;
+    left: 92%;
+}
+#digit-6 {
+    top: 92%;
+    left: 48%;
+}
+#digit-9 {
+    top: 48%;
+    left: 5%;
+}
+#inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 16px;
+    height: 16px;
+    border-radius: 18px;
+    margin-left: -9px;
+    margin-top: -6px;
+    background: #fff;
+    z-index: 11;
+}
+#hour,
+#minute,
+#second {
+    position: absolute;
+    border-radius: 10px;
+    transform-origin: bottom;
+    z-index: 5;
+}
+#hour {
+    background: #000;
+    width: 2.4%;
+    height: 25%;
+    top: 26%;
+    left: 48.85%;
+    opacity: 0.8;
+}
+#minute {
+    background-color:red;
+    width: 2%;
+    height: 30%;
+    top: 20%;
+    left: 48.9%;
+    opacity: 0.8;
+}
+#second {
+    background: #000;
+    width: 1%;
+    height: 40%;
+    top: 10%;
+left: 49.25%;
+    opacity: 0.8;
+}
+
+  /* ======================= */

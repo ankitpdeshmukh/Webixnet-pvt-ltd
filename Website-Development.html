@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container d-none d-sm-block d-md-block">
+    <ul class="head-nav">
+      <li><i class="bi bi-telephone-fill me-1"></i><span style="font-weight:600;">7774992896</span></li>
+      <li><i class="bi bi-envelope-fill me-1"></i><span style="font-weight:600;">Connect@webixnet.com</span></li>
+      <li><button class="btn text-white" style="background-color: #0B1460;">Online Courses</button></li>
+      <li><button class="btn text-white" style="background-color: #0B1460;">Job Portal</button></li>
+      <li><button class="btn text-white" style="background-color: #0B1460;">Apply For Interrnship</button></li>
+      <li><button class="btn text-white" style="background-color: #0B1460;">Client's Log In</button></li>
+    </ul>
+  </div>
+  <nav class=" container-fluid navbar pt-0 move d-sm-block d-none d-sm-block d-md-block">
+    <div class="container-fluid bg-white" data-aos="fade-down">
+      <a class="navbar-brand fs-1" href="#"><img src="/images/asset 0.gif" alt="" class="logo-img"></a>
+      <ul style="display: flex; justify-content: space-around; align-items: center; list-style: none;">
+        <li class="nav-item mx-3">
+          <a class="nav-link active fs-5" aria-current="page" href="index.html" style="color: #0B1460;">Home</a>
+        </li>
+        <li class="nav-item dropdown  mx-3">
+          <a class="nav-link dropdown-toggle fs-5" style="color: #0B1460;" href="Services.html" role="button"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            Service
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="Website-Development.html">Website Development</a></li>
+            <li><a class="dropdown-item" href="E-commers-website.html">E-commers Website Development</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" href="SEO Optimization.html">SEO Optimization</a></li>
+            <li><a class="dropdown-item" href="Website-Redesign-Service.html">Website Redesign Services</a></li>
+          </ul>
+        </li>
+        <li class="nav-item mx-3">
+          <a class="nav-link active fs-5" aria-current="page" href="About-us.html" style="color: #0B1460;">About Us</a>
+        </li>
+        <li class="nav-item  mx-3 fs-5">
+          <a class="nav-link active" aria-current="page" href="contact us.html" style="color: #0B1460;">Contact Us</a>
+        </li>
+        <li class="nav-item">
+          <button class="button mt-2">Let's Talk</button>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- -------------------------------------- -->
+  <nav class="navbar  navbar-expand-lg mt-0">
+    <div class="container">
+      <a class="navbar-brand fs-1" href="#"><img src="/images/asset 0.gif" alt="" class="logo-img"></a>
+      <button style="float:right;" class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasWithBackdrop" aria-controls="offcanvasWithBackdrop" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="bi bi-list fs-1"></span>
+      </button>
+      <div class="offcanvas offcanvas-start w-75" tabindex="-1" id="offcanvasWithBackdrop"
+        aria-labelledby="offcanvasWithBackdropLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasWithBackdropLabel">Menu</h5>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link fs-5" style="color:#0B1460" ; aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle fs-5" style="color: #0B1460;" href="#" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Service
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item " href="#">Website Development</a></li>
+                <li><a class="dropdown-item" href="#">E-commers Website Development</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">SEO Optimization</a></li>
+                <li><a class="dropdown-item" href="#">Website Redesign Services</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active fs-5" style="color:#0B1460 ;" aria-current="page" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link  fs-5" style="color:#0B1460;" href="#">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <button class="button">Let's Talk</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- <div class="container Smarter">
+            <div class="row sec-1">
+            <di style="width: 600px;" class="col-12">
+              <h2 class=" mb-3"  style="font-size: 80px;">Services We Provide</h2>
+            <p>We have a Digital Marketing team that has one of the most experienced digital direct response marketing teams in the world..</p>
+            <div class="my-5">
+              <button class="btn btn-outline-primary">ALL</button> 
+               <button class="btn btn-outline-warning">SEO Development</button> 
+                <button class="btn btn-outline-warning">SEO Optimization</button></div>
+            </div>
+          </div>
+           </div> -->
+  <!-- ------------------ -->
+  <div class="container">
+    <div class="row gx-5">
+      <div class="col-md-6">
+        <img src="/images/web-redesign.gif" class="img-fluid" alt="">
+      </div>
+      <div class="col-md-6 py-5">
+        <h2>Responsive Website Development</h2>
+        <p class="w-75" style="line-height:35px;">Webixnet is a forward-thinking and creative Website Development
+          Company based in Pune. Webixnet provides services in Website Development and has a proven track record in
+          helping small, medium, and large businesses achieve high levels of success. A responsive and mobile-friendly
+          web design ensures that your website and applications are intuitive to adapt the content formatting and match
+          the layout to various screen sizes and displays on which it is viewed.</p>
+        <button style="border-radius:10px; border: none;">contact us<i class="bi bi-arrow-right"></i></button>
+      </div>
+    </div>
+  </div>
+  <!-- -------------------------------- -->
+  <section class="container-fluid" style="background:linear-gradient(
+    to right,
+    #F0F4FF,
+    #D2F0F0,
+    #D6E3FE,
+    #CDDBFF
+  );
+  padding: 70px 0px;">
+    <div class="container">
+      <div class="row sec-1">
+        <div class="col-12 text-center">
+          <h2 class=" mb-3" style="font-size:50px;">How To Manage Digital Solutions</h2>
+          <h3>Best Digital Agency Solutions</h3>
+        </div>
+      </div>
+    </div>
+    <!-- -------------------- -->
+    <div class="container mb-5">
+      <div class="row border border-primary rounded p-2 align-items-center gx-5 m-auto bg-white"
+        style="max-width:1000px;">
+        <div class="col-lg-5 col-sm-12 mt-4">
+          <img src="/images/duscuss-plan.png" alt="" class="img-fluid">
+        </div>
+        <!-- ------------------- -->
+        <div class="col-lg-5 col-sm-12 mt-4">
+          <button class="btn my-1" style="background-color: #0B1460; color: white;">step 01</button>
+          <h2 class="my-1">Discuss Plan</h2>
+          <p class="lh-lg">We initiate each website development plan by understanding your business needs, detailed
+            understanding of your products and services. We also get inputs from your competitors and we study the
+            competition online. Your inputs are very crucial for the success of any website development plan. Our
+            time-bound and budget-oriented approach always help you to be in control and understand what are the goals
+            we have set and plans to achieve those.</p>
+        </div>
+      </div>
+    </div>
+    <!-- ------------------------ -->
+    <div class="container mb-5">
+      <div class="row border border-primary rounded p-3 gx-0 align-items-center gx-5 m-auto bg-white"
+        style="max-width:1000px;">
+        <!-- ------------------- -->
+        <div class="col-lg-6 col-sm-12 mt-4">
+          <button class="btn my-1" style="background-color: #0B1460; color: white;">step 02</button>
+          <h2 class="my-1">Design Stratergy</h2>
+          <p class="lh-lg">Designing the website has multiple factors and is spread out over time. We consider not just
+            the increase in traffic but also effective traffic. The design is in line with your online as well as
+            offline presence and strategies. Planned interactivity is a crucial part of the design and helps to track
+            the response and success of the website development plan.</p>
+        </div>
+        <div class="col-lg-5 col-sm-12 mt-4">
+          <img src="/images/step-2-img.png" alt="" class="img-fluid">
+        </div>
+      </div>
+    </div>
+    <!-- -------------------------- -->
+    <div class="container mb-5">
+      <div class="row border border-primary rounded py-5 gx-0 align-items-center gx-5 m-auto bg-white"
+        style="max-width:1000px;">
+        <div class="col-lg-6 col-sm-12 mt-4">
+          <img src="/images/step-3-img.png" alt="" class="img-fluid">
+        </div>
+        <!-- ------------------- -->
+        <div class="col-lg-6 col-sm-12 mt-4">
+          <button class="btn my-1" style="background-color: #0B1460; color: white;">step 03</button>
+          <h2 class="my-1">Development of Stratergy</h2>
+          <p class="lh-lg">From our own set norms and experience we develop a website development plan which consists of
+            a step by step approach to achieve the desired goals. The success depends on a developed website & its SEO
+            plan which is comprehensive, logically organized, and efficient. It covers the basic essentials, Internet
+            advertising opportunities, advanced features, and interactive PR in order to effectively generate leads and
+            raise your online visibility.
+          <p>
+        </div>
+      </div>
+    </div>
+    <!-- -------------------------------------- -->
+    <div class="container mb-5">
+      <div class="row border border-primary rounded py-5 gx-0 align-items-center gx-5 m-auto bg-white"
+        style="max-width:1000px;">
+        <div class="col-lg-5 col-sm-12 mt-4">
+          <img src="/images/step-3-img.png" alt="" class="img-fluid">
+        </div>
+        <!-- ------------------- -->
+        <div class="col-lg-6 col-sm-12 mt-4">
+          <button class="btn my-1" style="background-color: #0B1460; color: white;">step 03</button>
+          <h2 class="my-1">Deliver the Results</h2>
+          <p class="lh-lg">Before a website goes live we do a testing of all processes & a dry run to determine the
+            expected results. Here we have the flexibility to quickly adapt to the results and modify the plan as
+            required saving a lot of money that can be effectively used. The focus is on the website design with
+            interactivity coupled with strong search engine optimization. We also effectively use social media
+            optimization, content writing, email marketing, and online brand management. So let's discuss your business
+            needs, innovative idea, or web technology requirements and let together make your project a success.</p>
+        </div>
+      </div>
+    </div>
+    <!-- ------------------------ -->
+
+    <!-- ------------------ -->
+
+  </section>
+  <!-- ------------------------------ -->
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-11 text-start m-auto mb-5">
+        <h4 style="text-align: left;">The Importance of a website for business growth</h4>
+        <p class="mb-2 " style="line-height:35px;">– They say the planet is now in our hands and therefore the
+          information is at our fingertips. There are not any second thoughts thereto. the planet of the web is
+          astounding. It continues to rework the way we connect with people, share information, and live top-quality
+          life. A lot of individuals spend most of their time on the web. this might be for purchasing a product,
+          employing a service, reading a blog, entertaining themselves, or for various other reasons.</p>
+        <p style="line-height:35px;">– Considering the quantity of your time people spend on the web, businesses too
+          have moved online. Having an internet site for business owners of any size and a presence on social media has
+          become crucial. If you’re into a business and don’t own an internet site, you would possibly be losing tons of
+          potential customers online. Knowing the importance of an internet site is vital to growing your business many
+          folds.</p>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-11 text-start m-auto  mb-5">
+        <h4>Listed below are 12 reasons proving the importance of a website:</h4>
+        <h5>-24/7 Online Presence</h5>
+        <p style="line-height:35px;">One of the main advantages of getting an internet site is that it’s accessible to
+          anyone, anywhere, anytime. Even during non-business hours, customers can access your website and avail of your
+          services or get the knowledge they have, which is one of the key elements within the importance of an internet
+          site in business. the website is usually at work to make sure that customers who are available are always
+          served within the comfort of their homes.</p>
+        <p style="line-height:35px;">1. FAQs – this is often the foremost commonly used medium. All the frequent
+          customer queries are answered on the website, saving some time and resources, while also providing precise and
+          relevant information to customers.</p>
+        <p style="line-height:35px;">2. Chatbots – Chatbots on websites also do the work of addressing frequent customer
+          queries through template answers. Chatbots also can provide users with many other important pieces of data
+          like signing-up procedures, information about services/products, and so on.</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col-11 text-start m-auto  mb-5">
+        <h4>Listed below are 12 reasons proving the importance of a website:</h4>
+        <h5>-24/7 Online Presence</h5>
+        <p style="line-height:35px;">One of the main advantages of getting an internet site is that it’s accessible to
+          anyone, anywhere, anytime. Even during non-business hours, customers can access your website and avail of your
+          services or get the knowledge they have, which is one of the key elements within the importance of an internet
+          site in business. the website is usually at work to make sure that customers who are available are always
+          served within the comfort of their homes.</p>
+        <p style="line-height:35px;">1. FAQs – this is often the foremost commonly used medium. All the frequent
+          customer queries are answered on the website, saving some time and resources, while also providing precise and
+          relevant information to customers.</p>
+        <p style="line-height:35px;">2. Chatbots – Chatbots on websites also do the work of addressing frequent customer
+          queries through template answers. Chatbots also can provide users with many other important pieces of data
+          like signing-up procedures, information about services/products, and so on.</p>
+        <p style="line-height:35px;">Providing customer support may be a tough job for any business. However, providing
+          customer support online is simpler and more cost-efficient than hiring personnel to supply support. are often”
+          this is often where the importance of getting an internet site becomes clear as customer support through an
+          internet site can be provided in various ways:</p>
+        <p style="line-height:35px;">1. FAQs – this is often the foremost commonly used medium. All the frequent
+          customer queries are answered on the website, saving some time and resources, while also providing precise and
+          relevant information to customers.</p>
+        <h6>-Information Exchange</h6>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-11 text-start m-auto  mb-5">
+            <h6>-Establish Credibility and Build Trust</h6>
+            <p style="line-height:35px;">– Just like within the old days, when customers expected
+              businesses to possess
+              contact numbers and addresses mentioned in their information brochure, customers nowadays expect
+              businesses to possess an internet site or online presence. this is often an important initiative in
+              establishing trust.</p>
+            <p style="line-height:35px;">– From this attitude, for a business, an internet site is very important to
+              require it a touch further, if a business’s website is superlative in its features and navigation,
+              customers are more inclined to trust the business and avail of their services. Websites are an important
+              tool for businesses to determine their credibility and build trust with their customers. this will then be
+              further boosted by local SEO services to draw in an area demographic for businesses who could be new
+              within the market.</p>
+            <h6>-Professional Web Design</h6>
+            <p style="line-height:35px;">Website visitors haven’t any reason to remain on any website unless they’re
+              tempted to. Visitors can get bored very easily and expect something unique to capture their interest
+              whenever they’re visiting any website. Hence, it’s crucial that companies build their websites with
+              immaculate design and architecture in order that customers are offered exceptional features and convenient
+              navigation. this may encourage more visitors to require a peek at your website and potentially buy from
+              your business.</p>
+            <h6>-Sales</h6>
+            <p style="line-height:35px;">The accessibility of your business grows exponentially with an internet site
+              because it is often accessed from any corner of the planet. Hence, websites help businesses break
+              geographical barriers and significantly increase their sales.</p>
+            <h6>-Revenue</h6>
+            <p style="line-height:35px;">There is no limit to the revenue that would be generated by your website. If
+              the reach of your website can cross borders, the revenue can reach sky high. All you would like to try to
+              do is optimise your site and confirm that your audience finds you once they are trying to find you.
+              Besides that, you’ll also give a number of your digital space on your website for display ads. Let’s say
+              your site is about reviewing or selling mobile phones. you’ll give a number of your digital space on your
+              website to display ads relevant to those phones. this is often just a further way with which you’ll
+              generate more revenue.</p>
+            <h6>-Cost-Effective</h6>
+            <p style="line-height:35px;">– A physical store requires a huge investment for owning or renting billboard
+              space. Besides that, furniture, interiors, and employees also are some additional expenses that can’t be
+              ignored. On the opposite hand, creating an internet site is extremely easy and cost-effective. With CMS
+              like WordPress, Shopify, or Wix, one can easily create an internet site with little or no help.</p>
+            <p style="line-height:35px;">– As long as you’re fixing a posh website like E-commerce or one with thousands
+              of pages, or complex filters and facets, then you would possibly need the assistance of experts. However,
+              the value can still be minimal as compared with fixing the physical store.</p>
+            <h6>-Visibility</h6>
+            <p style="line-height:35px;">Websites can become your online store, office, or showroom at a really minimal
+              cost. A physical store will have visibility within a specific radius of its location, counting on its
+              type. However, when it involves a business with a web presence, the visibility or the reach has no bound.
+              Users from any part of the planet can access the website.</p>
+            <h6>-Marketing</h6>
+            <p style="line-height:35px;">– Marketing plays an important role in the expansion of any business. Having an
+              internet site makes it pretty easy to spread the word about your business when people are checking out
+              them. allow us to say your offline business is doing well, and now you would like to expand it online If
+              you’ve got an internet site, you’ll make it appear on an inquiry Engine whenever people search employing a
+              keyword. There are two sorts of marketing methods that create this possible. <br> <br>
+
+            <p style="line-height:35px;">– One is program Optimization (SEO), and therefore the second is program
+              Marketing (SEM). The SEM is usually also mentioned as Pay Click (PPC). Besides SEO and PPC, you’ll also
+              market your website using social media, display Ads, and other techniques. you’ll find out an audience of
+              your choice and use demographics like age, gender, location, and more for an equivalent. you’ll go as
+              broad as you would like or as niche as you would like. A digital marketing agency with proven success
+              records helps you create and execute a marketing plan for your business that might drive relevant users to
+              your website.</p>
+            <h6>-Portfolio</h6>
+            <p style="line-height:35px;">– Do not limit your website to just selling products or services. Create a
+              portfolio that shows how well you’re doing within the business. allow us to say your business is into
+              travel and tourism. you’ll create a video portfolio of a family that shows their overall experience from
+              booking tickets to taking trip pictures of all the fun. you’ll ask them to share their feedback in a video
+              format and add it to the portfolio video.</p>
+            <p style="line-height:35px;">– Such portfolios help build the trust of individuals in your business. Having
+              an internet site has become crucial during this digital age. A business with no website loses multiple
+              opportunities which will come online. aside from these essential benefits, an internet site has got to
+              offer, it also helps in numerous other ways. for instance, an internet site can provide a map or
+              directions to their business locations or offices.</p>
+            <p style="line-height:35px;">– If someone wants to understand a few businesses at their convenient hour, an
+              internet site can help them with an equivalent since it’s accessible at any time. A neat and interesting
+              website can strengthen the brand image. To become a successful business person, you want to have a
+              knowledgeable website.</p>
+            <h6>-Growth Opportunity</h6>
+            <p style="line-height:35px;">A website can act as a company’s portfolio or resume. this will convince be
+              beneficial for businesses because the website can act as a reference for potential investors during which
+              they will be familiar with your services, what you’ve got achieved thus far, and what your plans for the
+              longer term are as a business.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ----------------- -->
+
+
+
+  <div class="container">
+    <div class="container">
+      <div class="row">
+        <div class="col-12" style="text-align: center;">
+          <h4 class="py-3">Responsive Website Development</h4>
+          <div class="my-5">
+            <button class="btn btn-outline-primary m-2">ALL</button>
+            <button class="btn btn-outline-warning  m-2">SEO Development</button>
+            <button class="btn btn-outline-warning  m-2">SEO Optimization</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ----- -->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-lg-3" id="newbox">
+        <div class="ourcard card text-center" id="box" class="" data-aos="flip-left"
+          style="align-items: center; padding:50px 15px;">
+          <img src="/images/Screenshot 2024-02-06 171240.png " alt="" class="card-img" style="height:80px;">
+          <div class="card-body">
+            <h5 class="card-title" style="color:#0B1460; font-size: 25px; font-weight:600;">SEO Optimization</h5>
+            <p class="card-text">Webixnet is a forward thinking & trusted…</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3">
+        <div class="card text-center" id="box" class="card-img" data-aos="flip-left"
+          style="align-items: center; padding:50px 15px;">
+          <img src="/images/Screenshot 2024-02-06 171342.png" alt="" class="card-img" style="height:80px;">
+          <div class="card-body">
+            <h5 class="card-title" style="color:#0B1460; font-size: 25px; font-weight:600;">Website Dev</h5>
+            <p class="card-text">Webixnet is a forward <br>thinking and creative…</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-3">
+        <div class="card text-center p-5" id="box" data-aos="flip-left" style="align-items: center; padding:50px 15px;">
+          <img src="/images/Screenshot 2024-02-06 171620.png" class="card-img" alt="" style="height:80px;">
+          <div class="card-body">
+            <h5 class="card-title" style="color:#0B1460; font-size: 25px; font-weight:600;">
+              E-Commerce</h5>
+            <p class="card-text">Webixnet is a forward- <br>thinking & trusted E-Commerce…</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-3">
+        <div class="card text-center p-5" id="box" class="card-img" data-aos="flip-left"
+          style="align-items: center; padding:50px 15px;">
+          <img src="/images/Screenshot 2024-02-06 171711.png" class="card-img" alt="" style="height:80px;">
+          <div class="card-body">
+            <h5 class="card-title" style="color:#0B1460; font-size: 25px; font-weight:600;">Redesign Services</h5>
+            <p class="card-text">Webixnet is a forward- <br>thinking and creative Website…</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ------------------ -->
+  <div class="container">
+    <div class="container">
+      <div class="row">
+        <div class="col-12" style="text-align: center;">
+          <h2 class="py-3">Some of our Reviews & Profiles</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ------------------ -->
+  <div class="container">
+    <div class="row py-5" style="margin-inline:90px;">
+      <div class="col-lg-3 col-sm-6"><img src="/images/google-logo-effect.gif" alt="" class="img-fluid w-50 mb-4"></div>
+      <div class="col-lg-3 col-sm-6"><img src="/images/facebook-logo-effect.gif" alt="" class="img-fluid w-50 mb-4">
+      </div>
+      <div class="col-lg-3 col-sm-6"><img src="/images/instagram-logo-effect.gif" alt="" class="img-fluid w-50 mb-4">
+      </div>
+      <div class="col-lg-3 col-sm-6"><img src="/images/twitter-logo-effect.gif" alt="" class="img-fluid w-50 mb-4">
+      </div>
+    </div>
+  </div>
+  <!-- ------------------- -->
+  <div class="container" style="text-align: center;">
+    <div class="row py-4">
+      <div class=".col">
+        <h2>Frequently Asked Questions</h2>
+        <h6>Responsive Website Development</h6>
+      </div>
+    </div>
+  </div>
+  <!-- ------------- -->
+  <div class="container">
+    <div class="accordion " id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+            aria-expanded="true" aria-controls="collapseOne">
+            <span class="fs-5"> What is website development?</span>
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+          data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <p> Web development is the work involved in developing a Web site for the Internet (World Wide Web) or an
+              intranet (a private network). Among Web professionals, “Web development” usually refers to the main
+              non-design aspects of building Web sites: writing markup and coding.</p>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            <span class="fs-5">Why website development important?</span>
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+          data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <p>Website development is the key to making those things happen. … Website development is a way to make
+              people aware of the services and/or products you are offering, understand why your products are relevant
+              and even necessary for them to buy or use, and see which of your company’s qualities set it apart from
+              competitors.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            <span class="fs-5"> What is the role of website?</span>
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+          data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <p>The website is a magazine and a storefront at the same time. It allows your visitors to see you in the
+              virtual space so that they can make particular assumptions and create a given perception of your brand. A
+              website is a nifty tool that every business needs</p>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            <span class="fs-5">What is the use of website in business?</span>
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+          data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <p>Your website can help establish your business as a going concern, communicate your brand value
+              proposition and it can convey professionalism. It also extends your reach to anyone in the world. Help
+              build trust.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- --------------- -->
+  <section class="py-5" style="background:linear-gradient(
+    to right,
+    #ECE2E2,
+    #E8EFFF,
+    #C7D8FF,
+    #E5EDFF
+  );
+  margin: 15px 0px;">
+    <div class="connatiner">
+      <div class="row">
+        <div class="col-lg-12" style="text-align: center;">
+          <img src="/images/asset 0.gif" alt="" class="w-25 m-auto pb-5">
+        </div>
+      </div>
+    </div>
+    <!-- ---------------- -->
+    <div class="container">
+      <div class="row gx-0">
+        <div class="col-sm-12 col-lg-6">
+          <img src="/images/form-side-girl.png" alt="" class="img-fluid w-25 form-img form-side-img newcon"
+            style="float: right; min-width:280px;">
+        </div>
+        <div class="col-sm-12 col-lg-6 ">
+          <form action="" class="contact-form px-5" style="border-radius: 10px; padding:40px 0px; width:420px;">
+            <h4 style="text-align: center;">Contact Now</h4>
+            <h5 style="text-align: center;">Contact Now For Free Consultation</h5>
+            <div>
+              <input type="text" class="form-control py-3 my-4" placeholder="Full Name">
+            </div>
+            <div>
+              <input type="email" class="form-control  py-3 my-4" placeholder="Email Address">
+            </div>
+            <div>
+              <input type="number" class="form-control  py-3 my-4" placeholder="Phone Number">
+            </div>
+            <select name="" id="" class="form-select  py-3 my-4">
+              Subject
+              <option value="">Subject</option>
+              <option value="">Website Development</option>
+              <option value="">Website Redesign</option>
+              <option value="">Digital Marketing</option>
+              <option value="">SEO</option>
+              <option value="E-Commerce Portal"></option>
+            </select>
+            <div style="text-align: center; margin-top: 15px;"><button>Get Consultation</button></div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ---------- -->
+
+
+  <div class="container">
+    <div class="row bg-dark mt-5">
+      <div class="co-sm- text-white">
+        <h2>Are You Ready To Work <span class="text-warning">Together</span> ?</h2>
+      </div>
+      <div class="col">
+        <button class="mt-4" style="float: right;">Let's Talk Our Experties <i class="bi bi-right-arrow"></i></button>
+      </div>
+    </div>
+  </div>
+  <div>
+  </div>
+  <footer>
+    <div class="container">
+      <div class="row footer-sub">
+        <div class="col-sm-12 col-lg-3">
+          <img src="images/asset 0.gif" alt="" class="img-fluid w-50 mt-5">
+        </div>
+        <div class="col-sm-12 col-lg-3">
+          <ul>
+            <li>
+              <h5> Contact Us</h5>
+            </li>
+            <li>
+              <h6>Phone Number</h6>
+            </li>
+            <li>+91 8080768631</li>
+            <li>
+              <p style="line-height: 35px;">503, Akanksha Residency, Abhinav College Rd, Near Abhinav College, New
+                Narhe, Pune, Maharashtra 411041
+                connect@webixnet.com</p>
+            </li>
+          </ul>
+        </div>
+        <div class="col-sm-12 col-lg-3">
+          <ul>
+            <li>
+              <h5>Quick Link</h5>
+            </li>
+            <li>
+              <h6>Website Redesign</h6>
+            </li>
+            <li>
+              <h6>SEO Optimization</h6>
+            </li>
+            <li>
+              <h6>Fast IT Services</h6>
+            </li>
+            <li>
+              <h6>E-Commerce Website</h6>
+            </li>
+          </ul>
+        </div>
+        <div class="col-sm-12 col-lg-3">
+          <ul>
+            <h5>Newletters</h5>
+            </li>
+            <li>
+              <h6>Sign Up Now & Get 15 OFF Extra | Be the first to know about our new and exclusive offers.</h6>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- ----------------------- -->
+    <div class="container">
+      <div class="row py-5">
+        <div class="col-sm-6 col-lg-3">
+          <img src="/images/1280px-Bing_Ads_2016_logo.png" class="w-50 m-3" alt="">
+        </div>
+        <div class="col-sm-6 col-lg-3">
+          <img src="/images/Business-partner-1.png" class="w-50 m-3" alt="">
+        </div>
+        <div class="col-sm-6 col-lg-3">
+          <img src="/images/dmca-badge-w250-2x1-01.png" class="w-50 m-3" alt="">
+        </div>
+        <div class="col-sm-6 col-lg-3">
+          <img src="/images/google_ads__1_-removebg-preview.png" class="w-50 m-3" alt="">
+        </div>
+      </div>
+    </div>
+    <!-- ------------------- -->
+    <div class="container bg-muted">
+      <div class="container Smarter">
+        <div class="row sec-1">
+          <div class="col-12">
+            <h5 class="">Copyright © 2022 <span class="text-warning">Webixnet</span> | Reserved by <span
+                class="text-warning">WEBIXNET PVT. LTD.</span> |</h5>
+            <h6 class="text-warning">Privacy Policy | Terms & Conditions</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- -------------------------- -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script>
+    const navbar = document.querySelector('.navbar');
+    const navbarHeight = navbar.offsetHeight;
+
+    window.addEventListener('scroll', () => {
+      if (window.scrollY >= navbarHeight) {
+        navbar.classList.add('sticky');
+      } else {
+        navbar.classList.remove('sticky');
+      }
+    });
+  </script>
+</body>
+
+</html>

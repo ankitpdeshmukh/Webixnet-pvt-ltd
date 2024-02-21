@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container d-none d-sm-block d-md-block">
+    <ul class="head-nav">
+      <li><i class="bi bi-telephone-fill me-1"></i><span style="font-weight:600;">7774992896</span></li>
+      <li><i class="bi bi-envelope-fill me-1"></i><span style="font-weight:600;">Connect@webixnet.com</span></li>
+      <li><button class="btn text-white" style="background-color: #0B1460;">Online Courses</button></li>
+      <li><button class="btn text-white" style="background-color: #0B1460;">Job Portal</button></li>
+      <li><button class="btn text-white" style="background-color: #0B1460;">Apply For Interrnship</button></li>
+      <li><button class="btn text-white" style="background-color: #0B1460;">Client's Log In</button></li>
+    </ul>
+  </div>
+  <nav class=" container-fluid navbar pt-0 move d-sm-block d-none d-sm-block d-md-block">
+    <div class="container-fluid bg-white" data-aos="fade-down">
+      <a class="navbar-brand fs-1" href="#"><img src="/images/asset 0.gif" alt="" class="logo-img"></a>
+      <ul style="display: flex; justify-content: space-around; align-items: center; list-style: none;">
+        <li class="nav-item mx-3">
+          <a class="nav-link active fs-5" aria-current="page" href="#" style="color: #0B1460;">Home</a>
+        </li>
+        <li class="nav-item dropdown  mx-3">
+          <a class="nav-link dropdown-toggle fs-5" style="color: #0B1460;" href="#" role="button"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            Service
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Website Development</a></li>
+            <li><a class="dropdown-item" href="#">E-commers Website Development</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" href="#">SEO Optimization</a></li>
+            <li><a class="dropdown-item" href="#">Website Redesign Services</a></li>
+          </ul>
+        </li>
+        <li class="nav-item mx-3">
+          <a class="nav-link active fs-5" aria-current="page" href="#" style="color: #0B1460;">About Us</a>
+        </li>
+        <li class="nav-item  mx-3 fs-5">
+          <a class="nav-link active" aria-current="page" href="#" style="color: #0B1460;">Contact Us</a>
+        </li>
+        <li class="nav-item">
+          <button class="button mt-2">Let's Talk</button>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- -------------------------------------- -->
+  <nav class="navbar  navbar-expand-lg mt-0">
+    <div class="container">
+      <a class="navbar-brand fs-1" href="#"><img src="/images/asset 0.gif" alt="" class="logo-img"></a>
+      <button style="float:right;" class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasWithBackdrop" aria-controls="offcanvasWithBackdrop" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="bi bi-list fs-1"></span>
+      </button>
+      <div class="offcanvas offcanvas-start w-75" tabindex="-1" id="offcanvasWithBackdrop"
+        aria-labelledby="offcanvasWithBackdropLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasWithBackdropLabel">Menu</h5>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link fs-5" style="color:#0B1460" ; aria-current="page" href="/index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle fs-5" style="color: #0B1460;" href="Services.html" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Service
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item " href="/Website-Development.html">Website Development</a></li>
+                <li><a class="dropdown-item" href="/E-commers-website.html">E-commers Website Development</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="/SEO Optimization.html">SEO Optimization</a></li>
+                <li><a class="dropdown-item" href="/Website-Redesign-Service.html">Website Redesign Services</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active fs-5" style="color:#0B1460 ;" aria-current="page" href="/About-us.html">About
+                Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link  fs-5" style="color:#0B1460;" href="/contact us.html">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <button class="button">Let's Talk</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- ---------------------------- -->
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <img src="/images/SEO.gif" class="img-fluid w-75" alt="" data-aos="fade-down" data-aos-easing="linear"
+          data-aos-duration="1000">
+        <div class="input-group w-75">
+          <input type="text" class="form-control" placeholder="https//www.yoursite.com"
+            aria-label="https//www.yoursite.com" aria-describedby="btnGroupAddon">
+          <div class="input-group-prepend">
+            <div class="input-group-text" id="btnGroupAddon">
+              <button class="btn" style="background-color: #0B1460; color: white;">contact us<i
+                  class="bi bi-arrow-right"></i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 py-5">
+        <h2>SEO (Search Engine Optimization)</h2>
+        <p class="w-75" style="line-height:32px;">Webixnet is a forward-thinking & trusted SEO Service Providing
+          company
+          based in Pune. Webixnet provides the best services in Search Engine Optimization(SEO) and has a proven track
+          record in helping small, medium and large businesses achieve high levels of success. Our SEO services can be
+          tailored to your needs, whether it could be large, medium, or small campaigns. Webixnet is a leading SEO and
+          Digital Marketing Company In Pune committed to helping businesses to meet their online potential.</p>
+        <button style="border-radius:10px; border: none;">contact us<i class="bi bi-arrow-right"></i></button>
+      </div>
+    </div>
+  </div>
+  <!-- -------------------- -->
+  <section style="background:linear-gradient(
+    to right,
+    #F0F4FF,
+    #D2F0F0,
+    #D6E3FE,
+    #CDDBFF
+  );
+  padding:50px 0px;">
+    <div class="container">
+      <div class="row sec-1">
+        <div class="col-12 text-center" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+          <h2 class=" mb-3" style="font-size:50px;">How To Manage Digital Solutions</h2>
+          <h3>Best Digital Agency Solutions</h3>
+        </div>
+      </div>
+    </div>
+    <!-- ------------------------- -->
+    <section>
+      <div class="container  mb-5">
+        <div class="row border border-primary rounded p-2 align-items-center gx-5 m-auto bg-white py-5 px-4"
+          style="max-width:1000px;">
+          <div class="col-lg-5 col-sm-12 mt-4">
+            <img src="/images/duscuss-plan.png" alt="" class="img-fluid">
+          </div>
+          <!-- ------------------- -->
+          <div class="col-lg-5 col-sm-12 mt-4" data-aos="fade-down-left">
+            <button class="btn my-1" style="background-color: #0B1460; color: white;">step 01</button>
+            <h2 class="my-1">Content Strategy</h2>
+            <p class="lh-lg">For productive SEO results, plan extensive, organized, and great quality substance. With an
+              outcome driven substance procedure, you end up guaranteeing clear informing, item recommendation, and
+              online
+              journals with web-based media combination. Content is the ruler and to connect with the crowd we make the
+              best substance system giving important, instructive, drawing in, and extraordinary substance.</p>
+          </div>
+        </div>
+      </div>
+      <!-- ------------------ -->
+      <div class="container mb-5">
+        <div class="row border border-primary rounded p-2 align-items-center gx-5 m-auto bg-white py-5 px-4"
+          style="max-width:1000px;">
+          <!-- ------------------- -->
+          <div class="col-lg-5 col-sm-12 mt-4" data-aos="fade-down-left">
+            <button class="btn my-1" style="background-color: #0B1460; color: white;">step 02</button>
+            <h2 class="my-1">Keywords Research</h2>
+            <p class="lh-lg">We analyze our target audience and based on that we do our research for the best suited key
+              phrases and keywords. With the help of proper and targeted keywords, we aim to improve customer engagement
+              and user interaction.</p>
+          </div>
+          <div class="col-lg-6 col-sm-12 mt-4">
+            <img src="/images/keyword-research.png" alt="" class="img-fluid">
+          </div>
+        </div>
+      </div>
+      <!-- --------------------- -->
+      <div class="container mb-5">
+        <div class="row border border-primary rounded p-2 align-items-center gx-5 m-auto bg-white py-5 px-4"
+          style="max-width:1000px;">
+          <div class="col-lg-5 col-sm-12 mt-4">
+            <img src="/images/mobile-first-seo.png" alt="" class="img-fluid">
+          </div>
+          <!-- ------------------- -->
+          <div class="col-lg-7 col-sm-12 mt-4" data-aos="fade-down-left">
+            <button class="btn my-1" style="background-color: #0B1460; color: white;">step 03</button>
+            <h2 class="my-1">Mobile First SEO Strategy</h2>
+            <p class="lh-lg">Planning versatile Mobile SEO technique assists you with building your online presence
+              among
+              your rivals and assists with getting positioned on SERP. This progression is significant as more than 80%
+              of
+              the traffic comes through mobile phones. We foster a methodology that incorporates making a responsive
+              website architecture, examining versatile Mobile Keywords, an extraordinary easy-to-use interface, and
+              drawing in focused Mobile SEO content.</p>
+          </div>
+        </div>
+      </div>
+      <!-- ------------------- -->
+      <div class="container mb-5">
+        <div class="row border border-primary rounded p-2 align-items-center gx-5 m-auto bg-white py-5 px-4"
+          style="max-width:1000px;">
+          <!-- ------------------- -->
+          <div class="col-lg-5 col-sm-12 mt-4" data-aos="fade-down-left">
+            <button class="btn my-1" style="background-color: #0B1460; color: white;">step 04</button>
+            <h2 class="my-1">Competition Analysis</h2>
+            <p class="lh-lg">To remain ahead in the ranking competition, we play out an intensive and firm investigation
+              of contenders to see how they perform on SEO boundaries. This assists us with making a converse system and
+              fabricate a cutthroat catchphrase research examination and realize the regions to center to rank higher
+              than
+              them and stay in front of your rivals.</p>
+          </div>
+          <div class="col-lg-5 col-sm-12 mt-4">
+            <img src="/images/compatition analysis.png" alt="" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>
+  <!-- ---------------- -->
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-12" data-aos="fade-down-left">
+        <h4 style="text-align: left;">The Importance of the SEO (Search Engine Optimization)</h4>
+        <h5 style="font-weight: bold;">-Visibility and Rankings</h5>
+        <p class="mb-2 " style="line-height:35px;">– While looking for help or an item on the web, clients are bound to
+          pick one of the best five ideas that the web search tool shows them. Website design enhancement assists you
+          with positioning higher in indexed lists and gathering greater visibility web-based, making potential clients
+          bound to click over to your webpage and convert.</p>
+      </div>
+    </div>
+  </div>
+  <!-- ---------------- -->
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-12" data-aos="fade-down-left">
+        <h5 style="font-weight: bold;">-Web Traffic</h5>
+        <p class="mb-2 " style="line-height:35px;">– To lay it out – if potential clients can’t discover your site, deal
+          openings are missed. Website design enhancement expands your natural internet searcher traffic, thus expanding
+          the number of guests your page sees daily. This straightforwardly associates with an increment in deals –
+          because the more significant individuals that see your site, the almost sure you are to offer to them..</p>
+      </div>
+    </div>
+  </div>
+  <!-- -------------------? -->
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-12" data-aos="fade-down-left">
+        <h5 style="font-weight: bold;">-Trustable</h5>
+        <p class="mb-2 " style="line-height:35px;">– The better your SEO score is, the higher you’ll appear on web
+          search tools like Google and Bing. While positioning higher on Google is attractive to all brands because of
+          expanded permeability, a used advantage is the trust you acquire with expected clients. Clients will generally
+          concede to the suggestions that a web search tool creates, so having a higher situation for the catchphrases a
+          client is looking for will, thus, harden your item or administration as dependable in the client’s brain.</p>
+      </div>
+    </div>
+  </div>
+  <!-- ----------------- -->
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-12" data-aos="fade-down-right">
+        <h5 style="font-weight: bold;">-Client Experience</h5>
+        <p class="mb-2 " style="line-height:35px;">– An all-around improved site obviously conveys what item or
+          administration is being offered, how to get it, and answers any inquiries encompassing it. By catering the
+          site work to the client’s experience, web indexes like Google and Bing can undoubtedly pull the data they need
+          to then transfer to clients. In the event that client battles to explore your site, odds are that web indexes
+          do also.</p>
+      </div>
+    </div>
+  </div>
+  <!-- ---------------------------- -->
+  <div class="container mt-5" data-aos="fade-down-left">
+    <div class="row">
+      <div class="col-12">
+        <h5 style="font-weight: bold;">-Development</h5>
+        <p class="mb-2 " style="line-height:35px;">– There’s not even a shadow of a doubt – SEO is critical to the
+          development of your image. As we referenced above, the higher you rank as an internet searcher for an
+          assortment of high-volume watchwords, the more natural (otherwise known as non-paid) web traffic your webpage
+          will get. That’s all there is to it.</p>
+        <p>– A site that is very much upgraded is bound to acquire clients and make more deals. Individuals are likewise
+          bound to then share your image across other social stages like Facebook or Instagram whenever they’ve
+          discovered your site through a web index.</p>
+      </div>
+    </div>
+  </div>
+  <!-- ----------------------------- -->
+  <div class="container">
+    <div class="container">
+      <div class="row">
+        <div class="col-12" style="text-align: center;">
+          <h4 class="py-3">Responsive Website Development</h4>
+          <div class="my-5">
+            <button class="btn btn-outline-primary m-2">ALL</button>
+            <button class="btn btn-outline-warning  m-2">SEO Development</button>
+            <button class="btn btn-outline-warning  m-2">SEO Optimization</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ----- -->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-lg-3" id="newbox">
+        <div class="ourcard card text-center" id="box" class="" data-aos="flip-left"
+          style="align-items: center; padding:50px 15px;">
+          <img src="/images/Screenshot 2024-02-06 171240.png " alt="" class="card-img" style="height:80px;">
+          <div class="card-body">
+            <h5 class="card-title" style="color:#0B1460; font-size: 25px; font-weight:600;">SEO Optimization</h5>
+            <p class="card-text">Webixnet is a forward thinking & trusted…</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3">
+        <div class="card text-center" id="box" class="card-img" data-aos="flip-left"
+          style="align-items: center; padding:50px 15px;">
+          <img src="/images/Screenshot 2024-02-06 171342.png" alt="" class="card-img" style="height:80px;">
+          <div class="card-body">
+            <h5 class="card-title" style="color:#0B1460; font-size: 25px; font-weight:600;">Website Dev</h5>
+            <p class="card-text">Webixnet is a forward <br>thinking and creative…</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-3">
+        <div class="card text-center p-5" id="box" data-aos="flip-left" style="align-items: center; padding:50px 15px;">
+          <img src="/images/Screenshot 2024-02-06 171620.png" class="card-img" alt="" style="height:80px;">
+          <div class="card-body">
+            <h5 class="card-title" style="color:#0B1460; font-size: 25px; font-weight:600;">
+              E-Commerce</h5>
+            <p class="card-text">Webixnet is a forward- <br>thinking & trusted E-Commerce…</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-3">
+        <div class="card text-center p-5" id="box" class="card-img" data-aos="flip-left"
+          style="align-items: center; padding:50px 15px;">
+          <img src="/images/Screenshot 2024-02-06 171711.png" class="card-img" alt="" style="height:80px;">
+          <div class="card-body">
+            <h5 class="card-title" style="color:#0B1460; font-size: 25px; font-weight:600;">Redesign Services</h5>
+            <p class="card-text">Webixnet is a forward- <br>thinking and creative Website…</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ------------------ -->
+  <div class="container">
+    <div class="container">
+      <div class="row">
+        <div class="col-12" style="text-align: center;">
+          <h2 class="py-3">Some of our Reviews & Profiles</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ------------------ -->
+  <div class="container">
+    <div class="row py-5" style="margin-inline:90px;">
+      <div class="col-lg-3 col-sm-6"><img src="/images/google-logo-effect.gif" alt="" class="img-fluid w-50 mb-4"></div>
+      <div class="col-lg-3 col-sm-6"><img src="/images/facebook-logo-effect.gif" alt="" class="img-fluid w-50 mb-4">
+      </div>
+      <div class="col-lg-3 col-sm-6"><img src="/images/instagram-logo-effect.gif" alt="" class="img-fluid w-50 mb-4">
+      </div>
+      <div class="col-lg-3 col-sm-6"><img src="/images/twitter-logo-effect.gif" alt="" class="img-fluid w-50 mb-4">
+      </div>
+    </div>
+  </div>
+  <!-- ------------------- -->
+  <div class="container" style="text-align: center;">
+    <div class="row py-4">
+      <div class=".col">
+        <h2>Frequently Asked Questions</h2>
+        <h6>Responsive Website Development</h6>
+      </div>
+    </div>
+  </div>
+  <!-- ------------- -->
+  <div class="container">
+    <div class="accordion " id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+            aria-expanded="true" aria-controls="collapseOne">
+            <span class="fs-5">What does an SEO company do?</span>
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+          data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <p>An experienced SEO company like Webixnet that focuses on generating leads through organic traffic
+              provides the below SEO services while following white hat techniques. Each of the below SEO-related
+              services has a range of sub-services critical to the SEO success of every enterprise.</p>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            <span class="fs-5">What is SEO in marketing?</span>
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+          data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <p>SEO stands for “search engine optimization.” It’s the practice of increasing both the quality and
+              quantity of website traffic, as well as exposure to your brand, through non-paid (also known as “organic”)
+              search engine results.</p>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            <span class="fs-5">Why SEO is required?</span>
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+          data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <p>SEO can help you build better relationships with your audience, improve the customer experience, increase
+              your authority, drive more people to your site, give you an edge over the competition, and increase
+              conversions, which means more sales, more loyal customers, and more growth for your business.</p>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            <span class="fs-5">Is SEO worth the money?</span>
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+          data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <p>The investment of time and money. If your marketing budget allows, SEO is an investment that should start
+              sooner rather than later. … To answer the question, yes, SEO is a valuable investment and is worth the
+              investment. You’re building an asset for your company by investing in SEO.</p>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            <span class="fs-5">How do you grow Organic Traffic?</span>
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+          data-bs-parent="#accordionExample">- Keep updating your website and content to align with the latest search
+          engine rules and regulations
+          <div class="accordion-body">
+            <p>Some of the most effective ways to grow organic traffic include,</p>
+            <ul style="list-style: none;">
+              <li class="lh-">- Focus on featured snippets</li>
+              <li class="lh-">- Enhance your website’s architecture to position your site higher in the results</li>
+              <li class="lh-">- Increase content in the form of blogs, articles, videos, question, and answers, etc. for
+                higher visibility</li>
+              <li>- Optimize your site for a higher CTR to pull users to your site and send positive signals to search
+                engines</li>
+              <li>- Explore the latest keywords and leverage them across your content appropriately</li>
+              <li>- Explore the latest keywords and leverage them across your content appropriately</li>
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- --------------- -->
+  <div class="connatiner">
+    <div class="row">
+      <div class="col-lg-6 col-sm-12  py-5" style="text-align: center;">
+        <img src="/images/asset 0.gif" alt="" class="logo-img">
+      </div>
+    </div>
+  </div>
+  <!-- ---------------- -->
+  <section class="py-5" style="background:linear-gradient(
+    to right,
+    #ECE2E2,
+    #E8EFFF,
+    #C7D8FF,
+    #E5EDFF
+  );
+  margin: 15px 0px;">
+    <div class="connatiner">
+      <div class="row">
+        <div class="col-lg-12" style="text-align: center;">
+          <img src="/images/asset 0.gif" alt="" class="w-25 m-auto pb-5">
+        </div>
+      </div>
+    </div>
+    <!-- ---------------- -->
+    <div class="container">
+      <div class="row gx-0">
+        <div class="col-sm-12 col-lg-6">
+          <img src="/images/form-side-girl.png" alt="" class="img-fluid w-25 form-img form-side-img newcon"
+            style="float: right; min-width:280px;">
+        </div>
+        <div class="col-sm-12 col-lg-6 ">
+          <form action="" class="contact-form px-5" style="border-radius: 10px; padding:40px 0px; width:420px;">
+            <h4 style="text-align: center;">Contact Now</h4>
+            <h5 style="text-align: center;">Contact Now For Free Consultation</h5>
+            <div>
+              <input type="text" class="form-control py-3 my-4" placeholder="Full Name">
+            </div>
+            <div>
+              <input type="email" class="form-control  py-3 my-4" placeholder="Email Address">
+            </div>
+            <div>
+              <input type="number" class="form-control  py-3 my-4" placeholder="Phone Number">
+            </div>
+            <select name="" id="" class="form-select  py-3 my-4">
+              Subject
+              <option value="">Subject</option>
+              <option value="">Website Development</option>
+              <option value="">Website Redesign</option>
+              <option value="">Digital Marketing</option>
+              <option value="">SEO</option>
+              <option value="E-Commerce Portal"></option>
+            </select>
+            <div style="text-align: center; margin-top: 15px;"><button>Get Consultation</button></div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- -------------------- -->
+  <!-- ----------------------------------- -->
+  <div class="container">
+    <div class="row bg-dark mt-5">
+      <div class="co-sm- text-white">
+        <h2>Are You Ready To Work <span class="text-warning">Together</span> ?</h2>
+      </div>
+      <div class="col">
+        <button class="mt-4" style="float: right;">Let's Talk Our Experties <i class="bi bi-right-arrow"></i></button>
+      </div>
+    </div>
+  </div>
+  <div>
+  </div>
+  <footer>
+    <div class="container">
+      <div class="row footer-sub">
+        <div class="col-sm-12 col-lg-3">
+          <img src="images/asset 0.gif" alt="" class="img-fluid w-50 mt-5">
+        </div>
+        <div class="col-sm-12 col-lg-3">
+          <ul>
+            <li>
+              <h5> Contact Us</h5>
+            </li>
+            <li>
+              <h6>Phone Number</h6>
+            </li>
+            <li>+91 8080768631</li>
+            <li>
+              <p>503, Akanksha Residency, Abhinav College Rd, Near Abhinav College, New Narhe, Pune, Maharashtra 411041
+                connect@webixnet.com</p>
+            </li>
+          </ul>
+        </div>
+        <div class="col-sm-12 col-lg-3">
+          <ul>
+            <li>
+              <h5>Quick Link</h5>
+            </li>
+            <li>
+              <h6>Website Redesign</h6>
+            </li>
+            <li>
+              <h6>SEO Optimization</h6>
+            </li>
+            <li>
+              <h6>Fast IT Services</h6>
+            </li>
+            <li>
+              <h6>E-Commerce Website</h6>
+            </li>
+          </ul>
+        </div>
+        <div class="col-sm-12 col-lg-3">
+          <ul>
+            <h5>Newletters</h5>
+            </li>
+            <li>
+              <h6>Sign Up Now & Get 15 OFF Extra | Be the first to know about our new and exclusive offers.</h6>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- ----------------------- -->
+    <div class="container">
+      <div class="row py-5">
+        <div class="col-sm-6 col-lg-3">
+          <img src="/images/1280px-Bing_Ads_2016_logo.png" class="w-50 m-3" alt="">
+        </div>
+        <div class="col-sm-6 col-lg-3">
+          <img src="/images/Business-partner-1.png" class="w-50 m-3" alt="">
+        </div>
+        <div class="col-sm-6 col-lg-3">
+          <img src="/images/dmca-badge-w250-2x1-01.png" class="w-50 m-3" alt="">
+        </div>
+        <div class="col-sm-6 col-lg-3">
+          <img src="/images/google_ads__1_-removebg-preview.png" class="w-50 m-3" alt="">
+        </div>
+      </div>
+    </div>
+    <!-- ------------------- -->
+    <div class="container bg-muted">
+      <div class="container Smarter">
+        <div class="row sec-1">
+          <div class="col-12">
+            <h5 class="">Copyright © 2022 <span class="text-warning">Webixnet</span> | Reserved by <span
+                class="text-warning">WEBIXNET PVT. LTD.</span> |</h5>
+            <h6 class="text-warning">Privacy Policy | Terms & Conditions</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ----------------------- -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script>
+    const navbar = document.querySelector('.navbar');
+    const navbarHeight = navbar.offsetHeight;
+
+    window.addEventListener('scroll', () => {
+      if (window.scrollY >= navbarHeight) {
+        navbar.classList.add('sticky');
+      } else {
+        navbar.classList.remove('sticky');
+      }
+    });
+  </script>
+</body>
+
+</html>
